@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT grammar correction for Slack",
+  "version": "1.3",
+  "description": "Inject a custom button into Slack's message input form that can be used to check the grammar of the current message.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.slack.com/*"],
+      "js": ["jquery-3.6.4.min.js", "content_script.js"]
+    }
+  ],
+  "host_permissions": [
+    "https://*.slack.com/*"
+  ]
+}
