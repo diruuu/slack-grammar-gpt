@@ -35,6 +35,21 @@ A Chrome extension that adds a custom button to Slack's message input form for c
 
 2. Enter the API key in the extension settings, and you're good to go!
 
+3. If you can't find where the settings is, you might need to pin the extension first. Follow these steps:
+
+### How to Pin Extension and Enter API key
+Click on the Chrome extension icon on the top right corner of Chrome browser
+
+<img width="400" alt="sc" src="https://user-images.githubusercontent.com/6884679/231232893-ead14828-1e50-42fc-b2aa-b796eb89e948.jpg">
+
+Locate the ChatGPT Grammar Correction for Slack extension and click the pin button
+
+<img width="400" alt="sc" src="https://user-images.githubusercontent.com/6884679/231232922-bbeeb642-45b5-45a2-a3d9-daa01085ab40.jpg">
+
+Click on the magic wand icon of ChatGPT Grammar Correction for Slack extension on the top right corner of Chrome browser
+
+<img width="400" alt="sc" src="https://user-images.githubusercontent.com/6884679/231232942-223eca89-be03-4bf9-8f4f-5f421a25accf.jpg">
+
 ## Usage
 
 1. Open Slack in your Chrome browser.
