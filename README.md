@@ -1,4 +1,5 @@
 # ChatGPT Grammar Correction for Slack - Chrome Extension
+<img width="400" alt="sc" src="https://user-images.githubusercontent.com/6884679/231226871-d4659539-0470-4e83-8800-8d5cea06d662.png">
 
 A Chrome extension that adds a custom button to Slack's message input form for checking and correcting English grammar in your messages. It also provides translation from any language to English.
 
